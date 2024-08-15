@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://drrgoiuh8obqq"]
+
+[ext_resource type="Texture2D" uid="uid://doyff5d2360mk" path="res://icon.svg" id="1_vwhh3"]
+[ext_resource type="Script" path="res://figurinha.gd" id="2_nb4gs"]
+
+[node name="Principal" type="Node2D"]
+
+[node name="figurinha" type="Sprite2D" parent="."]
+texture = ExtResource("1_vwhh3")
+script = ExtResource("2_nb4gs")
+velocidade = 20
